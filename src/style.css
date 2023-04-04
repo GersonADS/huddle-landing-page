@@ -1,0 +1,8 @@
+body {
+    /* background-image: url(/images/bg-desktop.svg);
+    background-attachment: fixed;
+    background-size: cover; */
+   /* background-color: #674bb1; */
+   background:#674bb1 url(/images/bg-desktop.svg) no-repeat;
+   background-size: cover;
+}
