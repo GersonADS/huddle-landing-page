@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Poppins:ital,wght@0,400;1,300;1,500&family=Tilt+Warp&display=swap');
-
 body {
    overflow:hidden;
    background:#674bb1 url('/images/bg-desktop.svg') no-repeat;
@@ -59,8 +57,39 @@ header{
     border-radius: 100px;
     box-shadow: 1px 1px 8px rgb(51, 51, 51);
 }
+.btn:hover{
+    background-color: rgb(250, 165, 236);
+    border: rgb(243, 142, 218);
+    color: white;
+}
+.attribution{
 
+}
 
+footer {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    color: white;
+}
 
+footer a {
+    line-height: 100px;
+    text-decoration: none;
+    background-color:white;
+}
+.icons {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    right: 0;
+    width: 250px;
+}
+.icons img {
+    width: 50px;
 
-
+}
+.icons:hover{
+    
+}
