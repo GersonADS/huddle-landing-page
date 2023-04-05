@@ -62,6 +62,7 @@ header{
     background-color: rgb(250, 165, 236);
     border: rgb(243, 142, 218);
     color: white;
+   cursor: pointer;
 }
 a:hover{
     color: white;
