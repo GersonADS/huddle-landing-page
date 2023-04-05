@@ -62,10 +62,10 @@ header{
     border: rgb(243, 142, 218);
     color: white;
 }
-.attribution{
-
+a:hover{
+    color: white;
+    background-color: black;
 }
-
 footer {
     position: fixed;
     width: 100%;
@@ -81,15 +81,18 @@ footer a {
 }
 .icons {
     position: absolute;
-    top: 0px;
+    top: 1rem;
     height: 100px;
     right: 0;
     width: 250px;
 }
-.icons img {
-    width: 50px;
 
+.fa-brands{
+    font-size: 30px;
+    margin-left: 10px;   
 }
-.icons:hover{
-    
+
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover {
+    color: rgb(250, 165, 236);
 }
