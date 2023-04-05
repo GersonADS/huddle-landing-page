@@ -97,4 +97,5 @@ footer a {
 
 .fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover {
     color: rgb(250, 165, 236);
+    cursor:pointer;
 }
