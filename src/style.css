@@ -1,19 +1,29 @@
 body {
-    /* background-image: url(/images/bg-desktop.svg);
-    background-attachment: fixed;
-    background-size: cover; */
-   /* background-color: #674bb1; */
+   overflow:hidden;
    background:#674bb1 url('/images/bg-desktop.svg') no-repeat;
-   background-size: cover;
+   background-size:90% 100%;
+   background-position: -50px;
+   background-attachment:fixed;
 }
 
 header{
     position: relative;
-    padding:2.5rem;
-    
+    padding:4rem;
 }
 
 .logo {
     position: relative;
-    width:10rem ;
+    left: .9rem;
+    width:16rem;
+}
+
+.section_principal{
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+}
+
+.imagem_sites{
+    width: 57rem;
+    height: 40rem;
 }
