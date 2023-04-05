@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Poppins:ital,wght@0,400;1,300;1,500&family=Tilt+Warp&display=swap');
+
 body {
    overflow:hidden;
    background:#674bb1 url('/images/bg-desktop.svg') no-repeat;
@@ -13,17 +15,52 @@ header{
 
 .logo {
     position: relative;
-    left: .9rem;
+    left: 6rem;
     width:16rem;
+}
+
+.section_first {
+    display: flex;
 }
 
 .section_principal{
     position: relative;
     top: 2rem;
-    left: 3rem;
+    left: 10rem;
 }
 
 .imagem_sites{
     width: 57rem;
     height: 40rem;
 }
+
+.description {
+    display: block;
+    position: relative;
+    color:white;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 700px;
+    top: 6rem;
+    left: 13rem;
+}
+
+
+.description h1 ,p{
+    margin-bottom: 1rem;
+    line-height: 2rem;
+}
+
+.btn {
+    color: #674bb1;
+    padding: 10px;
+    width: 22%;
+    height: 8%;
+    border: 2px solid whitesmoke;
+    border-radius: 100px;
+    box-shadow: 1px 1px 8px rgb(51, 51, 51);
+}
+
+
+
+
+
