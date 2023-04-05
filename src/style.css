@@ -1,6 +1,7 @@
 body {
    overflow:hidden;
-   background:#674bb1 url('images/bg-desktop.svg');
+   background-image: url(../images/bg-desktop.svg);
+   background-color: #674bb1;
    background-size:90% 100%;
    background-position: -50px;
    background-attachment:fixed;
