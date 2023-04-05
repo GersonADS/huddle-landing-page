@@ -1,3 +1,61 @@
-@media (max-width:150px){
+@media (max-width:375px){
+
+    header{
+        padding: 2rem;
+    }
+
+    .section_first{
+        display: unset;
+    }    
+
+    .logo{
+        width:8rem;
+        left: .7rem;
+    }
+
+    .section_principal{
+        position: relative;
+        top: 2rem;
+        left: 2rem;
+    }
+
+    .imagem_sites{
+        width: 20rem;
+        height: 14rem;
+    }
+
+    .description{
+        display: block;
+        top: 2rem;
+        left: 0;
+        width: auto;
+        text-align: center;
+        position: relative;
+        padding: 2.5rem;
+    }
+
+    .descriptino h1 , p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .btn{
+        position: relative;
+        width: 12rem;
+        height: 2.5rem;
+        left: 0;
+    }
+
+    .icons{
+        top: 0;
+        left: 0;
+        margin: auto;
+        width:7.8rem;
+        height:2rem;
+    }
+    .attribution{
+        text-align: center;
+        line-height: 130px;
+    }
     
 }
